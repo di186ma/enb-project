@@ -1,0 +1,73 @@
+.header {
+    padding-top: 20px;
+    background: #DAD871;
+    display: flex;
+    justify-content: center;
+    &__up {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        @media screen and (max-width: 575.98px) {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+    &__form {
+        @media screen and (max-width: 575.98px) {
+            order: 2;
+            padding: 20px 80px 0 80px;
+        }
+        @media screen and (max-width: 475.98px) {
+            padding: 0 30px;
+        }
+    }
+    &__search {
+        @media screen and (max-width: 575.98px) {
+            width: 200px;
+        }
+    }
+    &__button {
+        padding: 10px 20px;
+        @media screen and (max-width: 575.98px) {
+            padding: 10px;
+        }
+    }
+    &__telephone-icon {
+        display: none;
+        @media screen and (max-width: 767.98px) {
+            display: block;
+        }
+    }
+    &__telephone-numb {
+        @media screen and (max-width: 767.98px) {
+            display: none;
+        }
+    }
+    &__down {
+        padding: 20px 0;
+    }
+    &__menu-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
