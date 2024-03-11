@@ -3,7 +3,7 @@
     background: #DAD871;
     display: flex;
     justify-content: center;
-    &__up {
+    &__top {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
