@@ -2770,7 +2770,7 @@ block('header').content()(function() {
             content: [
                 {
                     block: 'header',
-                    elem: 'up',
+                    elem: 'top',
                     content: [
                         {
                             tag: 'a',

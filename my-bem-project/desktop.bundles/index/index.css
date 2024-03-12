@@ -351,7 +351,7 @@
             justify-content: center;
 
 }
-.header__up {
+.header__top {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -367,7 +367,7 @@
                 align-items: center;
     }
 @media screen and (max-width: 575.98px) {
-.header__up {
+.header__top {
             -ms-flex-wrap: wrap;
                 flex-wrap: wrap;
             -ms-flex-pack: distribute;
